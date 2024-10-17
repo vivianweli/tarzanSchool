@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="anchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="controllers.Result_controller">
+   <children>
+      <AnchorPane fx:id="result" prefHeight="450.0" prefWidth="600.0">
+         <children>
+            <Text layoutX="255.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="89.66668701171875" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="255.99997965494788" />
+            <ImageView fx:id="result_tarzan" fitHeight="93.0" fitWidth="68.0" layoutX="14.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="result_boar" fitHeight="104.0" fitWidth="113.0" layoutX="244.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+            <Text fx:id="result_intro" layoutX="288.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <ImageView fx:id="result_cloth" fitHeight="75.0" fitWidth="77.0" layoutX="120.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="result_bag" fitHeight="75.0" fitWidth="77.0" layoutX="250.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="result_book" fitHeight="75.0" fitWidth="77.0" layoutX="380.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
