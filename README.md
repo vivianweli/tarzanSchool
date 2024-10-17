@@ -1,6 +1,6 @@
 # tarzanSchool
-a fun maze game with keyboard input, drag and drop and sound detection interaction styles
-
+This is a group project that aims to create a fun maze game using novel interaction styles including sound detection, click and drag for path movement and keyboard inputs.\
+The graphics are handdrawn and credited to me, Yizhen and Shangyu. My specific contribution includes maze layout, character backstory, implementing the click and drag for path movement, object collection, obstacle (puddle) and shortcut (wall) implementation and debugging of the entire project.
 ## Game Features
 ### 1. Main Menu
 - **Start**: Starts the maze game
@@ -46,6 +46,45 @@ a fun maze game with keyboard input, drag and drop and sound detection interacti
 -     javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml components/*.java application/*.java controllers/*.java
 4. Run
 -     java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml application.main
-
+* tweak the decibel threshold (line 48) in VoiceInput.java according to your environment
 ## Screenshots of our game ##
-  
+<figure>
+    <img src="https://github.com/user-attachments/assets/62753b57-14c4-4975-95dc-ff1e24a0d1f2" alt="Image 1" style="width: 75%;" />
+    <figcaption>Start Menu</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/user-attachments/assets/d4a62e26-7579-4ea1-8d6c-f7fb71d22c42" alt="Image 2" style="width: 75%;" />
+    <figcaption>Character Backstory</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/user-attachments/assets/b684243b-8356-453c-8469-6d450debbb2b" alt="Image 3" style="width: 75%;" />
+    <figcaption>Help</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/user-attachments/assets/ba576a6e-b674-4f6d-a88c-0bff79d65ac5" alt="Image 4" style="width: 75%;" />
+    <figcaption>Gameplay</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/user-attachments/assets/d6c8c5db-9592-42eb-b9eb-2d9c1c75fbcf" alt="Image 5" style="width: 75%;" />
+    <figcaption>You Win Screen</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/user-attachments/assets/5ed0017f-4189-4110-95be-14233bf6ef77" alt="Image 6" style="width: 75%;" />
+    <figcaption>You Pass Screen</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/user-attachments/assets/291be362-d6c3-46e8-a0a0-f5948c1338d4" alt="Image 7" style="width: 75%;" />
+    <figcaption>You Lose Screen 1</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/user-attachments/assets/b7445f8b-d5d2-423c-872e-73910731f7f8" alt="Image 8" style="width: 75%;" />
+    <figcaption>You Lose Screen 2</figcaption>
+  </figure>
+
